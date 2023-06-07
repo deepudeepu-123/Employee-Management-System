@@ -38,7 +38,7 @@ class App extends Component {
       isLogin: localStorage.getItem("isLogin") == "true"
 
     }, () => {
-      // temporary : for user to see user id and pass of all accounts to explore all features of app
+      // temporary-for user to see user id and pass of all accounts to explore all features of app
       this.alertFirstTime()
     });
 
