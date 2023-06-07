@@ -123,6 +123,17 @@ class App extends Component {
                   <Redirect to="/login" />
                 )
             }
+            // path="/admin"
+            // render={props =>
+            //   this.state.data["Account"] == 1 ? (
+            //     <DashboardAdmin
+            //       data={this.state.data}
+            //       onLogout={this.handleLogout}
+            //     />
+            //   ) : (
+            //       <Redirect to="/login" />
+            //     )
+            // }
           />
           <Route
             // exact
